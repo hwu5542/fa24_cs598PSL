@@ -1,0 +1,31 @@
+name: fa24_cs598PSL
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3
+  - pip
+  - jupyter 
+  - configparser
+  - requests
+  - pandas 
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - tqdm
+  - threadpoolctl=3
+  - xgboost
+  - prophet
+  - patsy
+  - scikit-surprise
+  #- streamlit
+  - pip:
+    - ISLP
+    - scikit-fda
+    - scikit-misc
+    #- streamlit_jupyter
+    - st-star-rating
